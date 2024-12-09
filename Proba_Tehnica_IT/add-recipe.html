@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chef IT - Adaugă Rețetă</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap" rel="style_add-recipe">
+    <link rel="stylesheet" href="style_add-recipe.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo"><h1><img src="Group 89.png" style="width: 123px; height: 63.4px; top: 17px; left: 56px;"></h1></div>
+        <nav>
+            <a href="retete.html">Recipes</a>
+            <a href="add-recipe.html">Add Recipe</a>
+        </nav>
+        <div class="auth-buttons">
+            <a href="sign-in.html">
+                <button class="login-btn">Login</button>
+                </a>
+                <a href="sign-up.html">
+                <button class="register-btn">Register</button>
+                </a>
+        </div>
+    </header>
+    <main class="add-recipe-container">
+        <div class="add-recipe-form">
+            <h1>Adaugă rețeta ta!</h1>
+            <form>
+                <div class="form-group">
+                    <label for="recipe-name">Recipe name:</label>
+                    <input type="text" id="recipe-name" placeholder="Enter recipe name">
+                </div>
+                <div class="form-group">
+                    <label for="description">Description:</label>
+                    <textarea id="description" placeholder="Enter recipe description"></textarea>
+                </div>
+                <div class="form-group">
+                   
+                    <label for="photo-upload"  class="upload-label" >
+                        <img src="Layer_1.png" alt="Upload Icon" class="label-icon">
+                        Upload photo</label>
+                    <input type="file" id="photo-upload">
+                </div>
+                <button type="submit" class="add-recipe-btn">Add recipe</button>
+            </form>
+        </div>
+        <div class="decorative-bg"></div>
+    </main>
+</body>
+</html>
+

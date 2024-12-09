@@ -1,0 +1,140 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+    background-image: url('fundal.png'); 
+    background-size: contain; 
+   
+    background-position: center; 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00236D;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+.navbar .logo h1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.navbar .logo span {
+    color: #009C41;
+}
+
+.navbar nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar nav ul li {
+    margin-left: 20px;
+}
+
+.navbar nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.logout {
+    padding: 10px 20px;
+        border: 2px solid white;
+        background-color: transparent;
+        color: white;
+        border-radius: 20px; 
+        font-size: 1rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+}
+
+.profile-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+
+    background-size: cover;
+    height: 100vh;
+}
+
+.profile-container {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    background-color: #00236D; 
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px; 
+    margin: 50px auto;
+ 
+    margin-right: 5%;
+}
+
+form label {
+    display: block;
+    color: white; 
+    font-size: 1rem;
+    margin-bottom: 5px;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid white; 
+    background-color: transparent;
+    color: white; 
+    padding: 5px 0;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.profile-card {
+    background-color: #00236D;
+    color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 50px auto;
+    text-align: center;
+
+    margin-left: 5%;
+}
+
+
+.profile-card .poza_bucatar img {
+    width: 108px;
+    height: 203px;
+    top: 358px;
+    margin-left: 407px;
+}
+
+.add-recipe {
+    background-color: #009C41;
+    color: #fff;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+
